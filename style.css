@@ -1,0 +1,11 @@
+footer li {
+    width: 50%;
+}
+form input {
+    margin-bottom: 10px;
+}
+
+.req-div {
+    float: left;
+    width: 50%;
+}
