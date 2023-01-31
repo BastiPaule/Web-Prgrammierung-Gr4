@@ -2,12 +2,15 @@
 <head>
     <title>Main Page</title>
 </head>
-<body>
+<body class="container">
     <link rel="stylesheet" href="style.css">
-    <h1>Food Tracker</h1>
-    <figure>
-        <img src="assets/wikingertopf.jpg" alt="Gericht">
-    </figure>
+    <img class="bg-img" src="assets/wikingertopf.jpg" alt="Gericht">
+    <div class="header">
+        <h1>Food Tracker</h1>
+    </div>
+
+
+    <div class="menu">
     <table>
         <tr>
             <th><h2>Table of Content</h2></th>
@@ -19,6 +22,8 @@
             <td><a href="#requirements">Requirements</a></td>
         </tr>
     </table>
+    </div>
+    <div class="main">
     <h2 id="introduction">Projektidee</h2>
     <p>Das Ergebnis des Projekts soll ein Food-Tracker werden, mit Gerichten. 
         Benutzer können Gerichte einsehen mit Bild und Rezept. Außerdem stehen die Nährwerte dabei.
@@ -44,8 +49,10 @@
         </ol>
     </div>
     <hr>
-    <footer>
-        <span>Team Member:</span>
+    </div>
+    <footer class="footer">
+        <div class="footer_elem">
+        <span >Team Member:</span>
         <span><a href="second.html">More Information</a></span>
         <ul>
             <li>Sebastian Paul</li>
@@ -53,8 +60,10 @@
             <li>Nicolas Kohl</li>
             <li>Daniel Kurth</li>
             <li>Luca Kaiser</li>
-            <li>Lisa Hellwage / Leonard Heininger</li>
+            <li>Leonard Heininger</li>
         </ul>
+        </div>
+        <div class="footer_elem">
         <p><b>Contact Team Members:</b></p>
         <form>
             <input type="text" id="emailadress" placeholder="E-Mail Adress">
@@ -65,5 +74,6 @@
             <br>
             <input type="button" value="Submit">
         </form>
+        </div>
     </footer>
 </body>
